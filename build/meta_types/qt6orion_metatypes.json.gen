@@ -1,0 +1,175 @@
+[
+    {
+        "classes": [
+            {
+                "className": "FileSystemModel",
+                "enums": [
+                    {
+                        "isClass": false,
+                        "isFlag": false,
+                        "lineNumber": 28,
+                        "name": "Roles",
+                        "values": [
+                            "NameRole",
+                            "PathRole",
+                            "IsDirRole",
+                            "SizeRole",
+                            "LastModifiedRole",
+                            "SuffixRole",
+                            "IconRole"
+                        ]
+                    }
+                ],
+                "lineNumber": 18,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "path",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 2,
+                        "lineNumber": 48,
+                        "name": "setCurrentPath",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "row",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 3,
+                        "lineNumber": 49,
+                        "name": "open",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "lineNumber": 50,
+                        "name": "goUp",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 5,
+                        "lineNumber": 51,
+                        "name": "refresh",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "folderName",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 6,
+                        "lineNumber": 52,
+                        "name": "createFolder",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "index": 7,
+                        "isConst": true,
+                        "lineNumber": 54,
+                        "name": "homePath",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "index": 8,
+                        "isConst": true,
+                        "lineNumber": 55,
+                        "name": "downloadsPath",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "index": 9,
+                        "isConst": true,
+                        "lineNumber": 56,
+                        "name": "desktopPath",
+                        "returnType": "QString"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 22,
+                        "name": "currentPath",
+                        "notify": "currentPathChanged",
+                        "override": false,
+                        "read": "currentPath",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "virtual": false,
+                        "write": "setCurrentPath"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "lineNumber": 23,
+                        "name": "parentPath",
+                        "notify": "currentPathChanged",
+                        "override": false,
+                        "read": "parentPath",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "virtual": false
+                    }
+                ],
+                "qualifiedClassName": "FileSystemModel",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 59,
+                        "name": "currentPathChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "message",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 1,
+                        "lineNumber": 60,
+                        "name": "errorOccurred",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractListModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "FileSystemModel.hpp",
+        "outputRevision": 69
+    }
+]

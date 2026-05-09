@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/orion/Proyectos/OrionFiles/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,14 @@
+-rootPath
+/home/orion/Proyectos/OrionFiles
+-cmake-output
+-output-file
+/home/orion/Proyectos/OrionFiles/build/.qt/qml_imports/orion_conf.cmake
+-importPath
+/home/orion/Proyectos/OrionFiles/build
+-importPath
+/home/orion/Proyectos/OrionFiles/build/Orion
+-importPath
+/usr/lib/qt6/qml
+-qrcFiles
+/home/orion/Proyectos/OrionFiles/build/.qt/rcc/qmake_Orion.qrc
+/home/orion/Proyectos/OrionFiles/build/.qt/rcc/orion_raw_qml_0.qrc

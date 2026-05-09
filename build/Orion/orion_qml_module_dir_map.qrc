@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt/qml/Orion">/home/orion/Proyectos/OrionFiles/build/Orion</file>
+
+  </qresource>
+</RCC>

@@ -1,0 +1,6 @@
+module Orion
+typeinfo orion.qmltypes
+prefer :/qt/qml/Orion/
+Main 1.0 qml/Main.qml
+depends QtQuick
+

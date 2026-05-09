@@ -1,0 +1,16 @@
+--bare
+-I
+/home/orion/Proyectos/OrionFiles/build
+-I
+/home/orion/Proyectos/OrionFiles/build/Orion
+-I
+/home/orion/Proyectos/OrionFiles/build
+-I
+/usr/lib/qt6/qml
+--resource
+/home/orion/Proyectos/OrionFiles/build/.qt/rcc/qmake_Orion.qrc
+--resource
+/home/orion/Proyectos/OrionFiles/build/.qt/rcc/orion_raw_qml_0.qrc
+/home/orion/Proyectos/OrionFiles/qml/Main.qml
+--json
+/home/orion/Proyectos/OrionFiles/build/orion_qmllint.json
